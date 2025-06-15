@@ -1,55 +1,58 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export function LoadingScreen() {
   const [loading, setLoading] = useState(true);
+  const [fadeOutLoader, setFadeOutLoader] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
+    const loaderDisplayDuration = 2000;
 
-    return () => clearTimeout(timer);
+    const startFadeOutDelay = 1500;
+
+    const timerFadeOut = setTimeout(() => {
+      setFadeOutLoader(true);
+    }, startFadeOutDelay);
+
+    const timerUnmount = setTimeout(() => {
+      setLoading(false);
+    }, loaderDisplayDuration);
+
+    return () => {
+      clearTimeout(timerFadeOut);
+      clearTimeout(timerUnmount);
+    };
   }, []);
 
   if (!loading) return null;
 
   return (
     <motion.div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-background"
-      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-[9999] flex items-center justify-center bg-gray-100"
+      initial={{ opacity: 1 }}
+      animate={{ opacity: fadeOutLoader ? 0 : 1 }}
       transition={{ duration: 0.5 }}
     >
       <div className="text-center">
-        <motion.div
-          className="text-6xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent"
-          initial={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5 }}
+        <motion.h1
+          className="text-6xl md:text-7xl font-bold mb-6 text-gray-900"
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
           Lasbrey
-        </motion.div>
-        <motion.div
-          className="flex space-x-1 items-center justify-center mb-4"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-          {[0, 1, 2].map((i) => (
-            <motion.div
-              key={i}
-              className="w-2 h-2 bg-primary rounded-full"
-              animate={{ y: [0, -10, 0] }}
-              transition={{
-                duration: 0.6,
-                repeat: Infinity,
-                delay: i * 0.2,
-              }}
-            />
-          ))}
-        </motion.div>
+        </motion.h1>
+
+        <div className="w-40 h-2 bg-gray-300 rounded-full mx-auto overflow-hidden">
+          <motion.div
+            className="h-full bg-lime-400 rounded-full"
+            initial={{ width: 0 }}
+            animate={{ width: "100%" }}
+            transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity }}
+          />
+        </div>
       </div>
     </motion.div>
   );
