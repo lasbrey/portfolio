@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 
@@ -9,24 +8,29 @@ interface SmoothScrollProviderProps {
 
 export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     let locomotiveScroll: LocomotiveScroll | null = null;
-
     const initializeScroll = () => {
       if (scrollRef.current) {
         locomotiveScroll = new LocomotiveScroll({
-          el: scrollRef.current,
-          smooth: true,
-          multiplier: 1,
-          class: 'is-revealed',
+          lenisOptions: {
+            wrapper: window,
+            content: scrollRef.current,
+            lerp: 0.1,
+            duration: 1.2,
+            orientation: 'vertical',
+            gestureOrientation: 'vertical',
+            smoothWheel: true,
+            wheelMultiplier: 1,
+            touchMultiplier: 2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          },
         });
+
       }
     };
 
-    // Initialize scroll after a short delay to ensure DOM is ready
     const timer = setTimeout(initializeScroll, 100);
-
     return () => {
       clearTimeout(timer);
       if (locomotiveScroll) {
