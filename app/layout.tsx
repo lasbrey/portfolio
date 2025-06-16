@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 const satisfaction = [
   { text: "20+ projects finished", highlight: "20+" },
-  { text: "8+ years of experience", highlight: "8+" },
+  { text: "5+ years of experience", highlight: "8+" },
   { text: "95% client retention rate", highlight: "95%" }
 ];
 
