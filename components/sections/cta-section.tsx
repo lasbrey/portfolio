@@ -49,13 +49,13 @@ export function CtaSection() {
               Contact me
             </span>
             <a
-              href="mailto:hello@lasbrey.dev"
+              href="mailto:lazarusosilawal@gmail.com"
               className="text-3xl md:text-4xl font-semibold block hover:pl-4 duration-700 transition"
             >
-              hello<span className='text-lime-400'>@</span>lasbrey.dev
+              lazarusosilawal<span className='text-lime-400'>@</span>gmail.com
             </a>
             <p className="text-base text-white/70 mt-4 leading-relaxed">
-              Hit me up if you're looking for a fast, reliable web-designer who can bring your vision to life
+              Hit me up if you're looking for a fast, reliable software developer who can bring your vision to life
             </p>
           </div>
 

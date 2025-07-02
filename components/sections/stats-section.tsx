@@ -14,7 +14,7 @@ const statsData = [
     ),
   },
   {
-    value: '10+',
+    value: '8+',
     description: 'Years of experience',
     bgColor: 'bg-gray-800',
     textColor: 'text-white',
@@ -27,7 +27,7 @@ const statsData = [
     ),
   },
   {
-    value: '24+',
+    value: '30+',
     description: 'Projects completed',
     bgColor: 'bg-white',
     textColor: 'text-gray-900',

@@ -8,7 +8,13 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   font-family: "Manrope", "Manrope Placeholder", sans-serif;
-  overflow: hidden;
+}
+
+/* Only hide overflow on desktop */
+@media (min-width: 768px) {
+  :root {
+    overflow: hidden;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -105,24 +111,26 @@
   background: hsl(var(--primary));
 }
 
-/* Locomotive Scroll */
-html.has-scroll-smooth {
-  overflow: hidden;
-}
+/* Locomotive Scroll - Only apply on desktop */
+@media (min-width: 768px) {
+  html.has-scroll-smooth {
+    overflow: hidden;
+  }
 
-html.has-scroll-dragging {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  html.has-scroll-dragging {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-.has-scroll-smooth body {
-  overflow: hidden;
-}
+  .has-scroll-smooth body {
+    overflow: hidden;
+  }
 
-.has-scroll-smooth [data-scroll-container] {
-  min-height: 100vh;
+  .has-scroll-smooth [data-scroll-container] {
+    min-height: 100vh;
+  }
 }
 
 [data-scroll-direction="horizontal"] [data-scroll-container] {

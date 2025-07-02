@@ -10,14 +10,14 @@ import { Marquee } from '@/components/ui/marquee';
 
 export default function Home() {
   const satisfaction = [
-    { text: "20+ projects finished", highlight: "20+" },
+    { text: "30+ projects finished", highlight: "30+" },
     { text: "8+ years of experience", highlight: "8+" },
     { text: "95% client retention rate", highlight: "95%" }
   ];
   const projects = [
-    { text: "20+ projects finished", highlight: "20+" },
-    { text: "8+ years of experience", highlight: "8+" },
-    { text: "95% client retention rate", highlight: "95%" }
+    { text: "Frontend Development", highlight: "Frontend" },
+    { text: "Mobile Applications", highlight: "Mobile" },
+    { text: "Full-Stack Solutions", highlight: "Full-Stack" }
   ];
   return (
     <>

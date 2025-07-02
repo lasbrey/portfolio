@@ -1,0 +1,170 @@
+{
+  "projects": 
+[
+  {
+    "id": "celebut-2025",
+    "title": "Celebut Platform",
+    "category": "Social Platform",
+    "date": "January 2025 - Present",
+    "description": "Modern social-first platform with secure identity verification",
+    "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Sumsub API", "REST APIs"],
+    "company": "Celebut",
+    "location": "London, United Kingdom",
+    "role": "Frontend Engineer",
+    "highlights": [
+      "Designed and developed front-end using Next.js for modern, fast interface",
+      "Integrated Sumsub for secure identity verification",
+      "Built custom REST APIs and handled complex third-party integrations",
+      "Optimized Next.js rendering strategies improving performance scores",
+      "Led redesign of user onboarding increasing completion rates by 40%",
+      "Implemented responsive design system with Tailwind CSS"
+    ],
+    "challenges": [
+      "Addressed slow page loads through ISR/SSR optimization",
+      "Solved UI inconsistencies across devices",
+      "Fixed state management issues in real-time interactions",
+      "Introduced API error handling and fallback UI strategies"
+    ]
+  },
+  {
+    "id": "hangouthub-2025",
+    "title": "HangoutHub",
+    "category": "Social + Expense Sharing App",
+    "date": "March 2025 - Present",
+    "description": "Mobile-first platform for planning, splitting, and celebrating hangouts with friends",
+    "image": "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React", "Node.js", "TypeScript", "MongoDB", "Vite"],
+    "company": "Personal Project",
+    "location": "Remote",
+    "role": "Fullstack Developer",
+    "highlights": [
+      "Built full-stack MVP including group creation, expense tracking, and live chat",
+      "Designed engaging UI/UX for seamless social interaction",
+      "Implemented media sharing and liking functionality with REST APIs",
+      "Handled user authentication and session management"
+    ],
+    "challenges": [
+      "Managed real-time chat performance and message syncing",
+      "Resolved inconsistencies in group expense calculations",
+      "Optimized API endpoints to reduce latency on mobile devices"
+    ]
+  },
+  {
+    "id": "buniversity-2025",
+    "title": "Buniversity",
+    "category": "Developer Playground Tool",
+    "date": "June 2025",
+    "description": "Interactive playground and learning tool for Bun projects",
+    "image": "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["Bun", "React", "Tailwind CSS", "Graphviz", "Node.js"],
+    "company": "Lasbrey",
+    "location": "Remote",
+    "role": "Developer Advocate & Builder",
+    "highlights": [
+      "Visualized project dependencies with a real-time Bun lockfile parser",
+      "Built live Bun REPL inside browser using custom server with bun.serve",
+      "Created project explorer with dynamic readme preview and routing",
+      "Showcased core Bun APIs to help onboard new developers quickly"
+    ],
+    "challenges": [
+      "Handled dynamic file routing and safe code evaluation in the browser",
+      "Ensured Bun version compatibility across features",
+      "Optimized visualization performance with large dependency trees"
+    ]
+  },
+  {
+    "id": "marvick-2025",
+    "title": "Marvick",
+    "category": "Mobile Utility App",
+    "date": "May 2025",
+    "description": "Material-styled mobile app for airtime and data top-up in Nigeria",
+    "image": "https://images.pexels.com/photos/4386365/pexels-photo-4386365.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React Native", "TypeScript", "Firebase", "Node.js"],
+    "company": "Personal Project",
+    "location": "Remote / Nigeria",
+    "role": "Fullstack Developer",
+    "highlights": [
+      "Developed mobile app with all major Nigerian telcos supported",
+      "Implemented secure wallet system and purchase flow",
+      "Built settings, history tracking, and biometric login",
+      "Used Firebase for auth and real-time updates"
+    ],
+    "challenges": [
+      "Managing telco API inconsistencies",
+      "Handling real-time balance sync and purchase confirmation",
+      "Optimizing for poor network conditions"
+    ]
+  },
+  {
+    "id": "shophoria-2025",
+    "title": "Shophoria",
+    "category": "Ecommerce Platform",
+    "date": "April 2025",
+    "description": "Modern eCommerce platform with dynamic product search, filtering, and payments",
+    "image": "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["Next.js", "Stripe API", "TypeScript", "MongoDB", "Tailwind CSS"],
+    "company": "Freelance Project",
+    "location": "Remote",
+    "role": "Fullstack Developer",
+    "highlights": [
+      "Built fully functional shopping experience with cart, checkout, and order history",
+      "Integrated Stripe for secure payments",
+      "Implemented product CMS integration for easy updates",
+      "Used server-side rendering for SEO and fast loading"
+    ],
+    "challenges": [
+      "Handled currency formatting and region-based pricing",
+      "Implemented optimistic UI during checkout",
+      "Secured endpoints and payment flows"
+    ]
+  },
+  {
+    "id": "zenpage-2025",
+    "title": "ZenPage",
+    "category": "Landing Page Builder",
+    "date": "February 2025",
+    "description": "Fast-loading marketing landing page app with animations, forms, and A/B testing",
+    "image": "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["Vite", "React", "Tailwind CSS", "Framer Motion", "Netlify Forms"],
+    "company": "Lasbrey",
+    "location": "Remote",
+    "role": "Frontend Developer",
+    "highlights": [
+      "Created smooth animated hero sections and scroll interactions",
+      "Integrated A/B testing and analytics tracking",
+      "Supported form submissions with Netlify Forms and validation",
+      "Optimized bundle size using Vite and tree shaking"
+    ],
+    "challenges": [
+      "Achieved 90+ Lighthouse score on mobile and desktop",
+      "Minimized hydration issues with pre-rendered content",
+      "Handled form spam with honeypot + reCAPTCHA"
+    ]
+  },
+  {
+    "id": "aivoicechat-2025",
+    "title": "AI Voice Chat Assistant",
+    "category": "AI Utility App",
+    "date": "June 2025",
+    "description": "Interactive chat assistant with voice input and screen context awareness",
+    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "technologies": ["React", "OpenAI API", "Whisper", "TypeScript", "Web Speech API"],
+    "company": "Lasbrey",
+    "location": "Remote",
+    "role": "AI UX Engineer",
+    "highlights": [
+      "Developed assistant that explains current screen and responds to voice",
+      "Used OpenAI for intelligent response generation and memory",
+      "Implemented whisper-like transcription for voice input",
+      "Integrated smooth UI trigger button with floating interaction bubble"
+    ],
+    "challenges": [
+      "Balancing fast response time with accurate voice recognition",
+      "Handling multi-turn context and fallback UI",
+      "Building for both desktop and mobile responsiveness"
+    ]
+  }
+]
+
+}

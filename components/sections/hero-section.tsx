@@ -24,20 +24,20 @@ export function HeroSection() {
             <span>Available for freelance</span>
           </div>
 
-          <div className="text-[80px] leading-none font-medium tracking-tightest text-primary">
+          <div className="text-4xl md:text-6xl lg:text-[80px] leading-none font-medium tracking-tightest text-primary">
             <span className="block mb-2">
               Hi! I'm{" "}
-              <span className="inline-block bg-white text-[42px] p-4 rounded-md transform -rotate-1 origin-bottom-left whitespace-nowrap">
-                Lasbrey Lawal
+              <span className="inline-block bg-white text-2xl md:text-[42px] p-2 md:p-4 rounded-md transform -rotate-1 origin-bottom-left whitespace-nowrap">
+                Lazarus Lawal
               </span>
             </span>
             <span className="block mb-2">
               a{" "}
-              <span className="inline-block bg-foreground text-white text-[42px] p-4 rounded-md transform -rotate-2 origin-bottom-left leading-none">
-                Digital Designer
+              <span className="inline-block bg-foreground text-white text-2xl md:text-[42px] p-2 md:p-4 rounded-md transform -rotate-2 origin-bottom-left leading-none">
+                Software Developer
               </span>{' '}
               from{' '}
-              <span className="inline-block border border-foreground text-[42px] p-4 rounded-full transform rotate-1 origin-bottom-right whitespace-nowrap">
+              <span className="inline-block border border-foreground text-2xl md:text-[42px] p-2 md:p-4 rounded-full transform rotate-1 origin-bottom-right whitespace-nowrap">
                 Nigeria
               </span>
             </span>
@@ -53,9 +53,9 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
         >
 
-          {/* (2018 - PRESENT) text */}
+          {/* (2017 - PRESENT) text */}
           <p className="text-xl text-black font-semibold">
-            (2018 – PRESENT)
+            (2017 – PRESENT)
           </p>
         </motion.div>
 
@@ -68,8 +68,8 @@ export function HeroSection() {
 
           {/* Description */}
           <p className="text-xl text-[#6b6b6b] mb-10">
-            I'm dedicated to crafting websites that bring your ideas to life, combining
-            design and development to deliver fast, impactful results.
+            Results-driven software developer passionate about creating user-friendly web and mobile applications. 
+            Proficient in React Native, Next.js, and Node.js, with experience in Kotlin and Swift.
           </p>
 
           {/* See what I can do button */}
@@ -84,5 +84,3 @@ export function HeroSection() {
     </section>
   );
 }
-
-

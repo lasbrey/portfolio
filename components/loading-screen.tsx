@@ -42,7 +42,7 @@ export function LoadingScreen() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Lasbrey
+          Lazarus
         </motion.h1>
 
         <div className="w-40 h-2 bg-gray-300 rounded-full mx-auto overflow-hidden">

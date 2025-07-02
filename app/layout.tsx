@@ -12,19 +12,19 @@ import { Footer } from '@/components/footer';
 const manrope = Manrope({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Lasbrey Lawal - Digital Designer & Developer',
-  description: 'Digital designer and developer from Boston, turning your ideas into pixel-perfect realities. Specializing in web design, development, and brand identity.',
-  keywords: ['digital designer', 'web developer', 'Boston', 'web design', 'UI/UX', 'brand identity'],
-  authors: [{ name: 'Lasbrey Lawal' }],
+  title: 'Lazarus Lawal - Software Developer & Engineer',
+  description: 'Results-driven software developer passionate about creating user-friendly web and mobile applications. Proficient in React Native, Next.js, and Node.js.',
+  keywords: ['software developer', 'web developer', 'mobile developer', 'React Native', 'Next.js', 'Node.js', 'Nigeria'],
+  authors: [{ name: 'Lazarus Lawal' }],
   openGraph: {
-    title: 'Lasbrey Lawal - Digital Designer & Developer',
-    description: 'Digital designer and developer from Boston, turning your ideas into pixel-perfect realities.',
+    title: 'Lazarus Lawal - Software Developer & Engineer',
+    description: 'Results-driven software developer passionate about creating user-friendly web and mobile applications.',
     type: 'website',
   },
 };
 const satisfaction = [
-  { text: "20+ projects finished", highlight: "20+" },
-  { text: "5+ years of experience", highlight: "8+" },
+  { text: "30+ projects finished", highlight: "30+" },
+  { text: "8+ years of experience", highlight: "8+" },
   { text: "95% client retention rate", highlight: "95%" }
 ];
 

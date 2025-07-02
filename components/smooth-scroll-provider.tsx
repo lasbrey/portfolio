@@ -8,10 +8,12 @@ interface SmoothScrollProviderProps {
 
 export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
+  
   useEffect(() => {
     let locomotiveScroll: LocomotiveScroll | null = null;
+    
     const initializeScroll = () => {
-      if (scrollRef.current) {
+      if (scrollRef.current && window.innerWidth > 768) { // Only enable on desktop
         locomotiveScroll = new LocomotiveScroll({
           lenisOptions: {
             wrapper: window,
@@ -26,11 +28,11 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
           },
         });
-
       }
     };
 
     const timer = setTimeout(initializeScroll, 100);
+    
     return () => {
       clearTimeout(timer);
       if (locomotiveScroll) {

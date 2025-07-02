@@ -6,7 +6,7 @@ import { Layers } from 'lucide-react';
 
 export function Footer() {
     const currentYear = new Date().getFullYear();
-    const creatorName = "Lasbrey Lawal";
+    const creatorName = "Lazarus Lawal";
 
     return (
         <footer className="bg-foreground text-white py-12 px-4 md:px-8 border-t border-[#282828]">
@@ -19,7 +19,7 @@ export function Footer() {
                     className="flex items-center flex-shrink-0"
                 >
                     <Layers className="h-6 w-6 text-lime-400 mr-2" />
-                    <span className="text-xl font-bold">Lasbrey</span>
+                    <span className="text-xl font-bold">Lazarus</span>
                 </motion.div>
 
                 <motion.div
@@ -30,7 +30,7 @@ export function Footer() {
                     className="flex flex-col items-center md:items-start text-sm text-white/70 flex-grow"
                 >
                     <p className="mb-1">
-                        Copyright &copy; Web Design and Development, {currentYear}
+                        Copyright &copy; Software Development & Engineering, {currentYear}
                     </p>
                 </motion.div>
 
@@ -44,7 +44,7 @@ export function Footer() {
                     <span className="text-sm text-white/70 mr-2">Created by</span>
                     <div className="w-8 h-8 rounded-full overflow-hidden mr-2">
                         <img
-                            src="https://placehold.co/32x32/A7F300/000000?text=LL" 
+                            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=64" 
                             alt={creatorName}
                             className="w-full h-full object-cover"
                         />

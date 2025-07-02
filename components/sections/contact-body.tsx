@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Twitter, Instagram, Dribbble, ArrowRight } from 'lucide-react';
+import { Twitter, Instagram, Dribbble, ArrowRight, Github, Linkedin } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -42,7 +42,7 @@ export function AboutContactBody() {
         const section = sectionRef.current;
         const headerToPin = leftColumnRef.current;
         const pinTriggerContainer = mainContentGridRef.current;
-        if (section && headerToPin && pinTriggerContainer) {
+        if (section && headerToPin && pinTriggerContainer && window.innerWidth > 768) {
             ScrollTrigger.getAll().forEach(st => st.kill());
 
             ScrollTrigger.create({
@@ -74,30 +74,30 @@ export function AboutContactBody() {
                     >
                          <div className="w-44 rounded-full overflow-hidden mb-6"> 
                             <img
-                                src="https://framerusercontent.com/images/pB05kmC43Cy1Y9VOuwLRBmbNY.jpg"
-                                alt="Lasbrey Profile"
-                                className="w-full h-full object-cover" // This ensures the image fills its parent (the w-24 h-24 div)
+                                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                alt="Lazarus Profile"
+                                className="w-full h-full object-cover"
                             />
                         </div>
                         <div>
                             <div className="flex space-x-3 mb-6">
+                                <a href="https://github.com/lazarusosilawal" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
+                                    <Github className="h-5 w-5 text-black" />
+                                </a>
+                                <a href="https://linkedin.com/in/lazarus-lawal" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
+                                    <Linkedin className="h-5 w-5 text-black" />
+                                </a>
                                 <a href="#" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
                                     <Twitter className="h-5 w-5 text-black" />
                                 </a>
-                                <a href="#" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
-                                    <Instagram className="h-5 w-5 text-black" />
-                                </a>
-                                <a href="#" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
-                                    <Dribbble className="h-5 w-5 text-black" />
-                                </a>
                             </div>
 
-                            <a href="mailto:hello@lasbrey.dev" className="text-xl font-medium text-gray-900 hover:underline mb-4">
-                                hello@lasbrey.dev
+                            <a href="mailto:lazarusosilawal@gmail.com" className="text-xl font-medium text-gray-900 hover:underline mb-4">
+                                lazarusosilawal@gmail.com
                             </a>
 
                             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                                I'm Lasbrey, a passionate web designer with a love for creating visually stunning and user-friendly digital experiences.
+                                I'm Lazarus, a passionate software developer with expertise in creating user-friendly web and mobile applications.
                             </p>
 
                             <a
@@ -120,10 +120,17 @@ export function AboutContactBody() {
                             className="text-xl text-gray-700 leading-relaxed space-y-6"
                         >
                             <p className='font-semibold'>
-                                Hi, I'm Lasbrey, a passionate web designer with a love for creating visually stunning experiences. With a strong background in design and front-end development, I specialize in crafting responsive websites that not only look great but also provide interactions across all devices.
+                                Hi, I'm Lazarus, a results-driven software developer passionate about creating user-friendly web and mobile applications. 
+                                With expertise in React Native, Next.js, and Node.js, plus experience in Kotlin and Swift, I specialize in building 
+                                scalable solutions that solve real-world problems.
                             </p>
                             <p>
-                                Over the years, I've had the opportunity to work with a diverse range of clients, from startups to established brands, helping them bring their visions to life online.
+                                Over the years, I've had the opportunity to work with diverse clients and companies, from startups to established 
+                                organizations like Celebut and Nigeria Communication Satellite Limited, helping them bring their digital visions to life.
+                            </p>
+                            <p>
+                                My experience spans frontend engineering, full-stack development, mobile app development, and AI/ML projects. 
+                                I'm committed to delivering clean, scalable code and enhancing user experience through collaboration and continuous learning.
                             </p>
                             <p className='font-semibold'>
                                 Let's create something amazing together!
