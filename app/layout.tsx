@@ -44,7 +44,7 @@ export default function RootLayout({
             <Marquee items={satisfaction} />
             <CtaSection />
             <Footer />
-            {/* <VoiceAssistant /> */}
+            <VoiceAssistant />
           </div>
         </SmoothScrollProvider>
         <Toaster />

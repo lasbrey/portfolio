@@ -218,7 +218,7 @@ export function VoiceAssistant() {
                     >
                       <div
                         className={`max-w-[80%] p-3 rounded-lg ${message.type === 'user'
-                            ? 'bg-primary text-primary-foreground'
+                            ? 'bg-primary text-white'
                             : 'bg-muted'
                           }`}
                       >
