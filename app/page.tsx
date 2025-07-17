@@ -4,7 +4,6 @@ import { ProcessSection } from '@/components/sections/process-section';
 import { StatsSection } from '@/components/sections/stats-section';
 import { ToolSection } from '@/components/sections/tools-section';
 import { FaqSection } from '@/components/sections/faq';
-// import { TestimonialsSection } from '@/components/sections/testimonials-section';
 import { ContactSection } from '@/components/sections/contact-section';
 import { Marquee } from '@/components/ui/marquee';
 
@@ -30,7 +29,6 @@ export default function Home() {
         <ProcessSection />
         <StatsSection />
         <FaqSection />
-        {/* <TestimonialsSection /> */}
         <ContactSection />
       </main>
     </>
