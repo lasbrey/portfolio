@@ -6,6 +6,7 @@ import { Layers, Menu, X, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
+  { name: "Tools", href: "tools" },
   { name: "Projects", href: "projects" },
   { name: "About & Contact", href: "contact" },
 ];
@@ -28,7 +29,7 @@ export function Navigation() {
     <header className="w-full absolute top-0 left-1/2 transform -translate-x-1/2 z-50 bg-transparent py-4 md:py-8">
       <div className="max-w-[1320px] mx-auto px-4 flex justify-between items-center">
         {/* Left: Logo */}
-        <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
+        <div className="flex items-center gap-2 md:gap-4 flex-shrink-0 cursor-pointer">
           <Link href="/" className="flex items-center gap-2">
             <Layers className="h-6 w-6 text-lime-400" />
             <h3 className="text-[rgb(47,47,47)] text-lg font-semibold whitespace-nowrap">Lazarus</h3>
@@ -36,6 +37,9 @@ export function Navigation() {
         </div>
 
         <nav className="hidden lg:flex gap-10 items-center mx-auto">
+          <Link href="/tools" className="text-primary hover:underline transition-colors font-semibold">
+            Tools
+          </Link>
           <Link href="/projects" className="text-primary hover:underline transition-colors font-semibold">
             Projects
           </Link>
