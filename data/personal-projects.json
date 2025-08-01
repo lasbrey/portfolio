@@ -1,0 +1,257 @@
+{
+  "personalProjects": [
+    {
+      "id": "bunbolt-2025",
+      "title": "Bunbolt",
+      "category": "AI-Powered Playground",
+      "date": "June 2025 - Present",
+      "description": "AI-powered playground for creating projects with Bun.js",
+      "image": "/images/Bunbolt.png",
+      "technologies": [
+        "Bun",
+        "React",
+        "Tailwind CSS",
+        "AI Integration",
+        "Node.js"
+      ],
+      "highlights": [
+        "Created AI-powered project generation using Bun.js",
+        "Built interactive playground for rapid prototyping",
+        "Integrated AI assistance for code generation and project setup",
+        "Developed visual project explorer with real-time preview"
+      ],
+      "challenges": [
+        "Integrating AI with Bun.js runtime environment",
+        "Handling dynamic project generation and file management",
+        "Optimizing AI response times for better user experience"
+      ]
+    },
+    {
+      "id": "talk-2025",
+      "title": "Talk",
+      "category": "Video Communication Platform",
+      "date": "May 2025",
+      "description": "Visual clone of Zoom with enhanced functionalities",
+      "image": "/images/Talk.png",
+      "technologies": [
+        "React",
+        "WebRTC",
+        "Socket.io",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "highlights": [
+        "Built real-time video communication platform",
+        "Implemented screen sharing and recording features",
+        "Created virtual backgrounds and filters",
+        "Developed chat and file sharing capabilities"
+      ],
+      "challenges": [
+        "Optimizing video quality and bandwidth usage",
+        "Handling multiple concurrent video streams",
+        "Implementing cross-platform compatibility"
+      ]
+    },
+    {
+      "id": "ai-social-manager-2025",
+      "title": "AI Social Media Manager",
+      "category": "AI Automation",
+      "date": "March 2025",
+      "description": "AI-powered platform that helps creators and brands schedule, generate, and analyze content across multiple social media platforms.",
+      "image": "/images/AISocialManager.png",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "OpenAI API",
+        "Supabase"
+      ],
+      "highlights": [
+        "Integrated GPT-based content generation for social posts",
+        "Built scheduling system and calendar-based UI",
+        "Implemented analytics dashboard with engagement metrics",
+        "Added multi-platform posting support (Instagram, Twitter, LinkedIn)"
+      ],
+      "challenges": [
+        "Managing rate limits and API tokens across multiple platforms",
+        "Handling time zone differences in scheduling",
+        "Optimizing prompt engineering for brand-specific tone"
+      ]
+    },
+    {
+      "id": "marvick-2025",
+      "title": "Marvick",
+      "category": "Data Payment App",
+      "date": "July 2025",
+      "description": "Mobile app for airtime and data top-up in Nigeria",
+      "image": "/images/Marvick.PNG",
+      "technologies": ["React Native", "TypeScript", "Firebase", "Node.js"],
+      "highlights": [
+        "Developed mobile app with all major Nigerian telcos supported",
+        "Implemented secure wallet system and purchase flow",
+        "Built settings, history tracking, and biometric login",
+        "Used Firebase for auth and real-time updates"
+      ],
+      "challenges": [
+        "Managing telco API inconsistencies",
+        "Handling real-time balance sync and purchase confirmation",
+        "Optimizing for poor network conditions"
+      ]
+    },
+    {
+      "id": "voicepayment-2025",
+      "title": "Voice Payment",
+      "category": "Voice Payment App",
+      "date": "April 2023",
+      "description": "Voice-activated payment application for seamless transactions",
+      "image": "/images/Voicepayment.png",
+      "technologies": [
+        "React Native",
+        "Voice Recognition",
+        "Payment APIs",
+        "TypeScript"
+      ],
+      "highlights": [
+        "Implemented voice recognition for hands-free payments",
+        "Integrated with multiple payment gateways",
+        "Built secure authentication and transaction verification",
+        "Created intuitive voice command interface"
+      ],
+      "challenges": [
+        "Ensuring accurate voice recognition in noisy environments",
+        "Implementing secure voice-based authentication",
+        "Optimizing for different accents and speech patterns"
+      ]
+    },
+    {
+      "id": "advisorpass-2025",
+      "title": "Advisor Pass",
+      "category": "Company Directory Platform",
+      "date": "December 2024",
+      "description": "Website for company directories and business listings",
+      "image": "/images/Advisorpass.png",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Tailwind CSS",
+        "REST APIs"
+      ],
+      "highlights": [
+        "Built comprehensive company directory with search and filtering",
+        "Implemented business profile management system",
+        "Created review and rating functionality",
+        "Developed responsive design for all devices"
+      ],
+      "challenges": [
+        "Managing large database of company information",
+        "Implementing efficient search and filtering algorithms",
+        "Ensuring data accuracy and verification processes"
+      ]
+    },
+    {
+      "id": "credova-2025",
+      "title": "Credova",
+      "category": "Credit Scoring API",
+      "date": "March 2025 - Present",
+      "description": "Credit scoring API built for banks, microfinance institutions, and digital lenders",
+      "image": "/images/Credova.png",
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "REST APIs",
+        "Machine Learning"
+      ],
+      "highlights": [
+        "Built credit scoring algorithms leveraging mobile money and telco data",
+        "Developed API for assessing creditworthiness of non-traditional borrowers",
+        "Integrated with multiple data sources for comprehensive scoring",
+        "Implemented secure data handling and privacy compliance"
+      ],
+      "challenges": [
+        "Handling large-scale data processing for credit scoring",
+        "Ensuring data privacy and regulatory compliance",
+        "Optimizing API performance for real-time credit decisions"
+      ]
+    },
+    {
+      "id": "hotel-mgmt-2024",
+      "title": "Hotel Management System",
+      "category": "Booking & Hospitality",
+      "date": "September 2024",
+      "description": "Hotel booking and room management system for small hotels and guest houses.",
+      "image": "/images/HotelSystem.png",
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "highlights": [
+        "Implemented room availability, reservation, and check-out features",
+        "Created admin dashboard for staff to manage operations",
+        "Built email confirmation system for bookings"
+      ],
+      "challenges": [
+        "Handling overlapping reservations",
+        "Creating an intuitive UX for both guests and staff"
+      ]
+    },
+    {
+      "id": "ptsd-care-2025",
+      "title": "PTSD Care Platform",
+      "category": "Health Platform",
+      "date": "October 2022",
+      "description": "Platform designed to help individuals with PTSD find care providers and self-help resources.",
+      "image": "/images/PTSDPlatform.png",
+      "technologies": ["HTML", "CSS", "JavaScript", "Firebase"],
+      "highlights": [
+        "Created user-friendly interface focused on accessibility",
+        "Implemented filtering and location-based search for care providers",
+        "Integrated resource library for PTSD education"
+      ],
+      "challenges": [
+        "Ensuring emotional safety in UX design",
+        "Managing sensitive user information securely"
+      ]
+    },
+    {
+      "id": "record-mgmt-2024",
+      "title": "Record Management System",
+      "category": "Information System",
+      "date": "September 2022",
+      "description": "Final year university project to manage student and administrative records efficiently.",
+      "image": "/images/RecordManagement.png",
+      "technologies": ["PHP", "MySQL", "HTML", "CSS"],
+      "highlights": [
+        "Designed database structure for efficient record storage",
+        "Created admin panel for CRUD operations",
+        "Implemented student login and access control"
+      ],
+      "challenges": [
+        "Handling file uploads and document integrity",
+        "Validating inputs and preventing data duplication"
+      ]
+    },
+    {
+      "id": "ebiore-app-2025",
+      "title": "Ebiore Social App",
+      "category": "Social Platform",
+      "date": "June 2025",
+      "description": "Social media platform with features like posts, reactions, and chat tailored for Nigerian youth.",
+      "image": "/images/Ebiore.png",
+      "technologies": [
+        "React Native",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "highlights": [
+        "Built post feed and story components",
+        "Implemented real-time chat using Socket.io",
+        "Worked on offline data caching and biometric login"
+      ],
+      "challenges": [
+        "Handling network variability and local device storage",
+        "Maintaining performance with real-time interactions"
+      ]
+    }
+  ]
+} 

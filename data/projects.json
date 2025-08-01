@@ -1,35 +1,32 @@
 {
   "projects": [
     {
-      "id": "celebut-2025",
-      "title": "Celebut Platform",
-      "category": "Social Platform",
-      "date": "January 2025 - Present",
-      "description": "Modern social-first platform with secure identity verification",
-      "image": "/images/Celebut.png",
+      "id": "bunbolt-2025",
+      "title": "Bunbolt",
+      "category": "AI-Powered Playground",
+      "date": "June 2025 - Present",
+      "description": "AI-powered playground for creating projects with Bun.js",
+      "image": "/images/Bunbolt.png",
       "technologies": [
-        "Next.js",
-        "TypeScript",
+        "Bun",
+        "React",
         "Tailwind CSS",
-        "Sumsub API",
-        "REST APIs"
+        "AI Integration",
+        "Node.js"
       ],
-      "company": "Celebut",
-      "location": "London, United Kingdom",
-      "role": "Frontend Engineer",
+      "company": "Personal Project",
+      "location": "Remote",
+      "role": "Developer Advocate & Builder",
       "highlights": [
-        "Designed and developed front-end using Next.js for modern, fast interface",
-        "Integrated Sumsub for secure identity verification",
-        "Built custom REST APIs and handled complex third-party integrations",
-        "Optimized Next.js rendering strategies improving performance scores",
-        "Led redesign of user onboarding increasing completion rates by 40%",
-        "Implemented responsive design system with Tailwind CSS"
+        "Created AI-powered project generation using Bun.js",
+        "Built interactive playground for rapid prototyping",
+        "Integrated AI assistance for code generation and project setup",
+        "Developed visual project explorer with real-time preview"
       ],
       "challenges": [
-        "Addressed slow page loads through ISR/SSR optimization",
-        "Solved UI inconsistencies across devices",
-        "Fixed state management issues in real-time interactions",
-        "Introduced API error handling and fallback UI strategies"
+        "Integrating AI with Bun.js runtime environment",
+        "Handling dynamic project generation and file management",
+        "Optimizing AI response times for better user experience"
       ]
     },
     {

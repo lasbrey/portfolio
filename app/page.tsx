@@ -1,5 +1,6 @@
 import { HeroSection } from '@/components/sections/hero-section';
 import { ProjectsSection } from '@/components/sections/projects-section';
+import { WorkExperienceSection } from '@/components/sections/work-experience-section';
 import { ProcessSection } from '@/components/sections/process-section';
 import { StatsSection } from '@/components/sections/stats-section';
 import { ToolSection } from '@/components/sections/tools-section';
@@ -24,6 +25,7 @@ export default function Home() {
         <HeroSection />
         <Marquee items={satisfaction} />
         <ProjectsSection />
+        <WorkExperienceSection />
         <ToolSection />
         <Marquee items={projects} />
         <ProcessSection />

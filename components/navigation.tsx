@@ -43,6 +43,9 @@ export function Navigation() {
           <Link href="/projects" className="text-primary hover:underline transition-colors font-semibold">
             Projects
           </Link>
+          <Link href="/work-experience" className="text-primary hover:underline transition-colors font-semibold">
+            Experience
+          </Link>
           <Link href="/contact" className="text-primary hover:underline transition-colors font-semibold">
             About & Contact
           </Link>
@@ -113,6 +116,15 @@ export function Navigation() {
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Projects
+                  </Link>
+                </motion.div>
+                <motion.div variants={itemVariants} initial="hidden" animate="visible" transition={{ delay: 0.15 }}>
+                  <Link
+                    href="/work-experience"
+                    className="block text-white text-xl font-semibold hover:text-lime-400 transition-colors py-2"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Experience
                   </Link>
                 </motion.div>
                 <motion.div variants={itemVariants} initial="hidden" animate="visible" transition={{ delay: 0.2 }}>

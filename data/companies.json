@@ -1,0 +1,162 @@
+{
+  "companies": [
+    {
+      "id": "celebut-2025",
+      "name": "Celebut",
+      "logo": "/images/Celebut.png",
+      "location": "London, United Kingdom",
+      "duration": "Jan 2025 - Present",
+      "role": "Frontend Engineer",
+      "description": "Modern social-first platform with secure identity verification and intelligent UI elements",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "REST APIs",
+        "Sumsub API",
+        "ISR/SSR"
+      ],
+      "achievements": [
+        "Designed and developed Celebut's front-end using Next.js (React-based), ensuring a responsive, modern, and scalable interface while integrating intelligent UI elements",
+        "Addressed slow page loads by optimizing Next.js rendering strategies (ISR/SSR), improving performance scores and reducing bounce rates",
+        "Solved UI inconsistencies across devices by implementing a robust responsive design system with Tailwind CSS",
+        "Built and connected custom REST APIs and handled complex third-party integrations (e.g., file uploads, payment processors, verification tools)",
+        "Integrated Sumsub for secure identity verification, enhancing compliance and improving onboarding for creators and early users",
+        "Led the redesign of user onboarding and profile flows, simplifying the experience and increasing completion rates by over 40%",
+        "Diagnosed and fixed state management issues that were causing unexpected UI behavior during real-time interactions",
+        "Introduced API error handling patterns and fallback UI strategies to improve stability and user trust during outages",
+        "Delivered major features under tight deadlines with a small team, including user dashboards, creator portals, and activity feeds"
+      ],
+      "projects": ["celebut-2025"]
+    },
+    {
+      "id": "lifesync-2024",
+      "name": "Lifesync Services",
+      "logo": "/images/Lifesync.png",
+      "location": "Abuja, Nigeria",
+      "duration": "Apr 2024 - Feb 2025",
+      "role": "Full Stack Developer",
+      "description": "Cross-platform mobile applications with advanced native functionalities and real-time data synchronization",
+      "technologies": [
+        "React Native",
+        "Kotlin",
+        "Swift",
+        "Bluetooth",
+        "WebSocket",
+        "Native Modules"
+      ],
+      "achievements": [
+        "Built and maintained cross-platform mobile applications using React Native, ensuring seamless performance on both Android and iOS platforms",
+        "Integrated Kotlin and Swift SDKs for advanced native functionalities, including Bluetooth connectivity, real-time data synchronization, and watch integrations",
+        "Developed custom native modules to extend React Native capabilities for device-specific features and APIs",
+        "Conducted rigorous code reviews, maintaining high code quality standards and fostering best practices",
+        "Diagnosed and resolved complex bugs, including issues arising from React Native-native integration",
+        "Collaborated with designers and stakeholders to deliver user-centric mobile apps"
+      ],
+      "projects": ["lifesync-2025"]
+    },
+    {
+      "id": "firstsamone-2023",
+      "name": "First Samone",
+      "logo": "/images/FirstSamone.png",
+      "location": "Abuja, Nigeria",
+      "duration": "Nov 2023 - Mar 2024",
+      "role": "Full Stack Developer",
+      "description": "Mobile product development with real-time chat functionality and responsive front-end features",
+      "technologies": [
+        "React Native",
+        "Figma",
+        "WebSocket",
+        "Python",
+        "Flask"
+      ],
+      "achievements": [
+        "Designed intuitive mockup prototypes for company products using Figma",
+        "Developed responsive and scalable front-end features for mobile products using React Native",
+        "Implemented a real-time chat application utilizing React Native and WebSocket",
+        "Collaborated with multidisciplinary teams to ensure project milestones were met",
+        "Performed detailed code reviews to uphold code quality and consistency",
+        "Contributed to the development of the company's internal tools using Python and Flask"
+      ],
+      "projects": ["firstsamone-2023"]
+    },
+    {
+      "id": "nigeriacommsat-2022",
+      "name": "Nigeria Communication Satellite Limited",
+      "logo": "/images/NigeriaCommsat.png",
+      "location": "Abuja, Nigeria",
+      "duration": "Dec 2022 - Oct 2023",
+      "role": "IT Specialist",
+      "description": "Ticketing system development and user interface design for sustainability goals",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "Unit Testing"
+      ],
+      "achievements": [
+        "Designed and developed a ticketing system, ensuring its functionality and user-friendliness",
+        "Conducted comprehensive unit tests for quality assurance",
+        "Collaborated in designing a user interface to represent the company's sustainability goals",
+        "Used ticketing systems to manage and process support actions and requests",
+        "Redesigned a product's user interface to improve usability and user experience",
+        "Responded to support requests from end-users and patiently walked individuals through basic troubleshooting tasks",
+        "Explained technical information in clear terms to promote better understanding for non-technical users"
+      ],
+      "projects": ["ticket-manager-2025"]
+    },
+    {
+      "id": "celebut-2017",
+      "name": "Celebut",
+      "logo": "/images/Celebut.png",
+      "location": "London, United Kingdom",
+      "duration": "Dec 2017 - May 2018",
+      "role": "Frontend Engineer",
+      "description": "Front-end interface development with user experience optimization and responsive design",
+      "technologies": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "Figma",
+        "A/B Testing"
+      ],
+      "achievements": [
+        "Led the development and maintenance of the company's front-end interfaces, delivering user-friendly solutions",
+        "Produced detailed mockup designs using Figma, enhancing collaboration with stakeholders",
+        "Delivered robust front-end features using HTML5, CSS, and JavaScript",
+        "Directed the redesign of a core system, achieving significant customer engagement growth",
+        "Ensured timely project delivery despite resource constraints",
+        "Conducted A/B testing to optimize design elements, improving user interaction",
+        "Implemented responsive design for seamless cross-browser compatibility",
+        "Provided mentorship to junior developers, supporting their professional development"
+      ],
+      "projects": []
+    },
+    {
+      "id": "coreelites-2017",
+      "name": "Core Elites Tekhub Limited",
+      "logo": "/images/CoreElites.png",
+      "location": "Abuja, Nigeria",
+      "duration": "May 2017 - Nov 2017",
+      "role": "Frontend Engineer",
+      "description": "Front-end development for flagship product NairaManager with legacy system optimization",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Legacy Systems"
+      ],
+      "achievements": [
+        "Built and optimized front-end web pages for the company's flagship product, NairaManager",
+        "Delivered efficient front-end solutions using JavaScript",
+        "Redefined and enhanced legacy systems to improve performance and user satisfaction",
+        "Conducted user feedback sessions to drive iterative design improvements",
+        "Partnered with the marketing team to create visually compelling promotional assets"
+      ],
+      "projects": []
+    }
+  ]
+} 
