@@ -84,10 +84,10 @@ export function AboutContactBody() {
                                 <a href="https://github.com/lazarusosilawal" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
                                     <Github className="h-5 w-5 text-black" />
                                 </a>
-                                <a href="https://linkedin.com/in/lazarus-lawal" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
+                                <a href="https://www.linkedin.com/in/lawal-lazarus/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
                                     <Linkedin className="h-5 w-5 text-black" />
                                 </a>
-                                <a href="#" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
+                                <a href="https://x.com/lasbreylawal" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center rounded-full bg-lime-400">
                                     <Twitter className="h-5 w-5 text-black" />
                                 </a>
                             </div>

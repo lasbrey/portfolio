@@ -57,13 +57,19 @@ export function NameCard() {
             </div>
 
             <div>
-                {/* <h3 className="text-xl font-semibold">Lasbrey Lawal</h3>
-                <p className="text-sm ">Web-designer, developer</p>
+                <h3 className="text-xl font-semibold">Lazarus Lawal</h3>
+                <p className="text-sm text-gray-600">Software Developer</p>
                 <div className="flex space-x-2 mt-2">
-                    <Twitter className="h-5 w-5 transition-colors cursor-pointer" />
-                    <Instagram className="h-5 w-5 transition-colors cursor-pointer" />
-                    <Linkedin className="h-5 w-5 transition-colors cursor-pointer" />
-                </div> */}
+                    <a href="https://x.com/lasbreylawal" target="_blank" rel="noopener noreferrer">
+                        <Twitter className="h-5 w-5 transition-colors cursor-pointer hover:text-blue-400" />
+                    </a>
+                    <a href="https://www.instagram.com/lasbreylawal/" target="_blank" rel="noopener noreferrer">
+                        <Instagram className="h-5 w-5 transition-colors cursor-pointer hover:text-pink-400" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/lawal-lazarus/" target="_blank" rel="noopener noreferrer">
+                        <Linkedin className="h-5 w-5 transition-colors cursor-pointer hover:text-blue-600" />
+                    </a>
+                </div>
             </div>
         </div>
     )

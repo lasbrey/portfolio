@@ -10,7 +10,7 @@ const contactItems = [
     {
         name: 'Facebook',
         icon: <Facebook className="h-6 w-6 text-primary" />,
-        link: 'https://behance.net',
+        link: 'https://web.facebook.com/lazarusosi.lawal',
         bgColor: 'bg-white',
         textColor: 'text-gray-900',
         iconBgColor: 'bg-lime-400',
@@ -18,7 +18,7 @@ const contactItems = [
     {
         name: 'Twitter/X',
         icon: <Twitter className="h-6 w-6 text-primary" />,
-        link: 'https://twitter.com',
+        link: 'https://x.com/lasbreylawal',
         bgColor: 'bg-white',
         textColor: 'text-gray-900',
         iconBgColor: 'bg-lime-400',
@@ -26,7 +26,7 @@ const contactItems = [
     {
         name: 'Instagram',
         icon: <Instagram className="h-6 w-6 text-primary" />,
-        link: 'https://instagram.com',
+        link: 'https://www.instagram.com/lasbreylawal/',
         bgColor: 'bg-white',
         textColor: 'text-gray-900',
         iconBgColor: 'bg-lime-400',
@@ -34,7 +34,7 @@ const contactItems = [
     {
         name: 'Linkedin',
         icon: <Linkedin className="h-6 w-6 text-primary" />,
-        link: 'https://dribbble.com',
+        link: 'https://www.linkedin.com/in/lawal-lazarus/',
         bgColor: 'bg-white',
         textColor: 'text-gray-900',
         iconBgColor: 'bg-lime-400',
@@ -42,7 +42,7 @@ const contactItems = [
     {
         name: 'Get in touch',
         icon: <ArrowUpRight className="h-6 w-6 text-primary" />,
-        link: 'mailto:your-email@example.com',
+        link: 'mailto:lazarusosilawal@gmail.com',
         bgColor: 'bg-lime-400',
         textColor: 'text-black',
         iconBgColor: 'bg-lime-400',
