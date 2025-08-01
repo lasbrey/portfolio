@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Worktitle } from "@/components/sections/worktitle";
 import { Workbody } from "@/components/sections/workbody";
 import { OtherProjectsSection } from "@/components/sections/otherprojectssection";
 import projectsData from '@/data/projects.json';
 
-const Work = () => {
+const WorkContent = () => {
     const searchParams = useSearchParams();
     const projectId = searchParams.get('id');
     const [project, setProject] = useState<any>(null);
@@ -31,6 +31,14 @@ const Work = () => {
             <Workbody project={project} />
             <OtherProjectsSection currentProjectId={project.id} />
         </>
+    );
+};
+
+const Work = () => {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <WorkContent />
+        </Suspense>
     );
 };
 
