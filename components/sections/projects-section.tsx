@@ -8,44 +8,15 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
+import projectsData from '@/data/projects.json';
 
 if (typeof window !== 'undefined') {
   gsap.registerPlugin(ScrollTrigger);
 }
 
-const projects = [
-  {
-    title: 'SilverLynx Technologies',
-    category: 'Pottery artist portfolio',
-    date: '5/31/24',
-    description: 'Web design & Web development',
-    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-  },
-  {
-    title: 'Evergreen Solutions',
-    category: 'Artist Portfolio',
-    date: '8/8/24',
-    description: 'Web design & Web development',
-    image: 'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=800',
-  },
-  {
-    title: 'EchoStream Entertainment',
-    category: 'Mobile app',
-    date: '6/20/24',
-    description: 'UI/UX design',
-    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-  },
-  {
-    title: 'PulseTech Innovations',
-    category: 'Boutique E-commerce Store',
-    date: '7/13/24',
-    description: 'Web design & Web development',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-  },
-];
-
 export function ProjectsSection() {
   const sectionRef = useRef<HTMLElement>(null);
+  const projects = projectsData.projects.slice(0, 4); // Show first 4 projects on landing page
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -106,33 +77,35 @@ export function ProjectsSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {projects.slice(0, 2).map((project) => (
           <Card
-            key={project.title}
+            key={project.id}
             className="border border-[#282828]  project-card overflow-hidden group hover:shadow-2xl transition-all duration-300 p-5 hover:bg-primary cursor-pointer"
           >
-            <CardContent className="p-6">
-              <div className="space-y-3">
-                <div className="flex items-center justify-between text-sm text-gray-400 font-light">
-                  <span className="text-green-500">{`[ ${project.category} ]`}</span>
-                  <span>{project.date}</span>
+            <Link href={`/projects/work?id=${project.id}`}>
+              <CardContent className="p-6">
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between text-sm text-gray-400 font-light">
+                    <span className="text-green-500">{`[ ${project.category} ]`}</span>
+                    <span>{project.date}</span>
+                  </div>
+
+                  <h3 className="text-2xl font-normal text-white group-hover:text-green-400 transition-colors mt-2">
+                    {project.title}
+                  </h3>
+
+                  <p className="text-gray-400 text-base font-light mt-1">
+                    {project.description}
+                  </p>
                 </div>
-
-                <h3 className="text-2xl font-normal text-white group-hover:text-green-400 transition-colors mt-2">
-                  {project.title}
-                </h3>
-
-                <p className="text-gray-400 text-base font-light mt-1">
-                  {project.description}
-                </p>
+              </CardContent>
+              <div className="relative overflow-hidden">
+                <motion.img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-96 rounded-md object-cover transition-transform duration-500"
+                  loading="lazy"
+                />
               </div>
-            </CardContent>
-            <div className="relative overflow-hidden">
-              <motion.img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-96 rounded-md object-cover transition-transform duration-500"
-                loading="lazy"
-              />
-            </div>
+            </Link>
           </Card>
         ))}
       </div>
@@ -140,34 +113,35 @@ export function ProjectsSection() {
       <div className="grid grid-cols-1 lg:grid-cols-3">
         {projects.slice(2, 4).map((project) => (
           <Card
-            key={project.title}
+            key={project.id}
             className="border border-[#282828]  project-card overflow-hidden group hover:shadow-2xl transition-all duration-300 p-5 hover:bg-primary cursor-pointer"
           >
-            <CardContent className="p-6">
-              <div className="space-y-3">
-                <div className="flex items-center justify-between text-sm text-gray-400 font-light">
-                  <span className="text-green-500">{`[ ${project.category} ]`}</span>
-                  <span>{project.date}</span>
+            <Link href={`/projects/work?id=${project.id}`}>
+              <CardContent className="p-6">
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between text-sm text-gray-400 font-light">
+                    <span className="text-green-500">{`[ ${project.category} ]`}</span>
+                    <span>{project.date}</span>
+                  </div>
+
+                  <h3 className="text-2xl font-normal text-white group-hover:text-green-400 transition-colors mt-2">
+                    {project.title}
+                  </h3>
+
+                  <p className="text-gray-400 text-base font-light mt-1">
+                    {project.description}
+                  </p>
                 </div>
-
-                <h3 className="text-2xl font-normal text-white group-hover:text-green-400 transition-colors mt-2">
-                  {project.title}
-                </h3>
-
-                <p className="text-gray-400 text-base font-light mt-1">
-                  {project.description}
-                </p>
+              </CardContent>
+              <div className="relative overflow-hidden">
+                <motion.img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-72 rounded-md object-cover transition-transform duration-500"
+                  loading="lazy"
+                />
               </div>
-            </CardContent>
-            <div className="relative overflow-hidden">
-              <motion.img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-72 rounded-md object-cover transition-transform duration-500"
-                loading="lazy"
-              />
-            </div>
-
+            </Link>
           </Card>
         ))}
         <Card className="p-5 hover:p-0 cursor-pointer min-h-[400px] border border-[#282828] ">

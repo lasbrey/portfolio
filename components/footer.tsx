@@ -44,7 +44,7 @@ export function Footer() {
                     <span className="text-sm text-white/70 mr-2">Created by</span>
                     <div className="w-8 h-8 rounded-full overflow-hidden mr-2">
                         <img
-                            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=64" 
+                            src="/images/user-profile.png"
                             alt={creatorName}
                             className="w-full h-full object-cover"
                         />

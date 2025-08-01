@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { NameCard } from '../ui/namecard';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function HeroSection() {
   return (
@@ -11,6 +12,22 @@ export function HeroSection() {
 
         <div className='col-span-1 py-10'>
           <NameCard />
+          <motion.div
+            className="mt-8 flex justify-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            <div className="relative w-48 h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-lime-400 shadow-2xl">
+              <Image
+                src="/images/user-profile.png"
+                alt="Lazarus Lawal - Software Developer"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </motion.div>
         </div>
 
         <motion.div

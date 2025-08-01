@@ -50,7 +50,7 @@ export function CtaSection() {
             </span>
             <a
               href="mailto:lazarusosilawal@gmail.com"
-              className="text-3xl md:text-4xl font-semibold block hover:pl-4 duration-700 transition"
+              className="text-2xl md:text-4xl sm:text-xl font-semibold block hover:pl-4 duration-700 transition"
             >
               lazarusosilawal<span className='text-lime-400'>@</span>gmail.com
             </a>
