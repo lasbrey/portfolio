@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export function HeroSection() {
   return (
-    <section className="flex pt-10 lg:pt-60 max-w-7xl mx-auto font-medium px-6 lg:px-8">
+    <section className="flex pt-10 lg:pt-36 max-w-7xl mx-auto font-medium px-6 lg:px-8">
       <div className=" grid grid-cols-1 lg:grid-cols-3 gap-6">
 
         <div className='col-span-1 py-10'>
