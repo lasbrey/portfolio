@@ -59,7 +59,7 @@ export function AboutContactBody() {
         };
     }, []);
 
-    return (
+    return (    
         <section id="about" className="bg-gray-100 text-gray-900 px-4 md:px-8 lg:pb-20 pb-10">
             <div className="max-w-7xl mx-auto">
 
@@ -74,7 +74,7 @@ export function AboutContactBody() {
                     >
                          <div className="w-44 rounded-full overflow-hidden mb-6"> 
                             <img
-                                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                src="/images/user-profile.png"
                                 alt="Lazarus Profile"
                                 className="w-full h-full object-cover"
                             />

@@ -1,170 +1,396 @@
 {
-  "projects": 
-[
-  {
-    "id": "celebut-2025",
-    "title": "Celebut Platform",
-    "category": "Social Platform",
-    "date": "January 2025 - Present",
-    "description": "Modern social-first platform with secure identity verification",
-    "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Sumsub API", "REST APIs"],
-    "company": "Celebut",
-    "location": "London, United Kingdom",
-    "role": "Frontend Engineer",
-    "highlights": [
-      "Designed and developed front-end using Next.js for modern, fast interface",
-      "Integrated Sumsub for secure identity verification",
-      "Built custom REST APIs and handled complex third-party integrations",
-      "Optimized Next.js rendering strategies improving performance scores",
-      "Led redesign of user onboarding increasing completion rates by 40%",
-      "Implemented responsive design system with Tailwind CSS"
-    ],
-    "challenges": [
-      "Addressed slow page loads through ISR/SSR optimization",
-      "Solved UI inconsistencies across devices",
-      "Fixed state management issues in real-time interactions",
-      "Introduced API error handling and fallback UI strategies"
-    ]
-  },
-  {
-    "id": "hangouthub-2025",
-    "title": "HangoutHub",
-    "category": "Social + Expense Sharing App",
-    "date": "March 2025 - Present",
-    "description": "Mobile-first platform for planning, splitting, and celebrating hangouts with friends",
-    "image": "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["React", "Node.js", "TypeScript", "MongoDB", "Vite"],
-    "company": "Personal Project",
-    "location": "Remote",
-    "role": "Fullstack Developer",
-    "highlights": [
-      "Built full-stack MVP including group creation, expense tracking, and live chat",
-      "Designed engaging UI/UX for seamless social interaction",
-      "Implemented media sharing and liking functionality with REST APIs",
-      "Handled user authentication and session management"
-    ],
-    "challenges": [
-      "Managed real-time chat performance and message syncing",
-      "Resolved inconsistencies in group expense calculations",
-      "Optimized API endpoints to reduce latency on mobile devices"
-    ]
-  },
-  {
-    "id": "buniversity-2025",
-    "title": "Buniversity",
-    "category": "Developer Playground Tool",
-    "date": "June 2025",
-    "description": "Interactive playground and learning tool for Bun projects",
-    "image": "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["Bun", "React", "Tailwind CSS", "Graphviz", "Node.js"],
-    "company": "Lasbrey",
-    "location": "Remote",
-    "role": "Developer Advocate & Builder",
-    "highlights": [
-      "Visualized project dependencies with a real-time Bun lockfile parser",
-      "Built live Bun REPL inside browser using custom server with bun.serve",
-      "Created project explorer with dynamic readme preview and routing",
-      "Showcased core Bun APIs to help onboard new developers quickly"
-    ],
-    "challenges": [
-      "Handled dynamic file routing and safe code evaluation in the browser",
-      "Ensured Bun version compatibility across features",
-      "Optimized visualization performance with large dependency trees"
-    ]
-  },
-  {
-    "id": "marvick-2025",
-    "title": "Marvick",
-    "category": "Mobile Utility App",
-    "date": "May 2025",
-    "description": "Material-styled mobile app for airtime and data top-up in Nigeria",
-    "image": "https://images.pexels.com/photos/4386365/pexels-photo-4386365.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["React Native", "TypeScript", "Firebase", "Node.js"],
-    "company": "Personal Project",
-    "location": "Remote / Nigeria",
-    "role": "Fullstack Developer",
-    "highlights": [
-      "Developed mobile app with all major Nigerian telcos supported",
-      "Implemented secure wallet system and purchase flow",
-      "Built settings, history tracking, and biometric login",
-      "Used Firebase for auth and real-time updates"
-    ],
-    "challenges": [
-      "Managing telco API inconsistencies",
-      "Handling real-time balance sync and purchase confirmation",
-      "Optimizing for poor network conditions"
-    ]
-  },
-  {
-    "id": "shophoria-2025",
-    "title": "Shophoria",
-    "category": "Ecommerce Platform",
-    "date": "April 2025",
-    "description": "Modern eCommerce platform with dynamic product search, filtering, and payments",
-    "image": "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["Next.js", "Stripe API", "TypeScript", "MongoDB", "Tailwind CSS"],
-    "company": "Freelance Project",
-    "location": "Remote",
-    "role": "Fullstack Developer",
-    "highlights": [
-      "Built fully functional shopping experience with cart, checkout, and order history",
-      "Integrated Stripe for secure payments",
-      "Implemented product CMS integration for easy updates",
-      "Used server-side rendering for SEO and fast loading"
-    ],
-    "challenges": [
-      "Handled currency formatting and region-based pricing",
-      "Implemented optimistic UI during checkout",
-      "Secured endpoints and payment flows"
-    ]
-  },
-  {
-    "id": "zenpage-2025",
-    "title": "ZenPage",
-    "category": "Landing Page Builder",
-    "date": "February 2025",
-    "description": "Fast-loading marketing landing page app with animations, forms, and A/B testing",
-    "image": "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["Vite", "React", "Tailwind CSS", "Framer Motion", "Netlify Forms"],
-    "company": "Lasbrey",
-    "location": "Remote",
-    "role": "Frontend Developer",
-    "highlights": [
-      "Created smooth animated hero sections and scroll interactions",
-      "Integrated A/B testing and analytics tracking",
-      "Supported form submissions with Netlify Forms and validation",
-      "Optimized bundle size using Vite and tree shaking"
-    ],
-    "challenges": [
-      "Achieved 90+ Lighthouse score on mobile and desktop",
-      "Minimized hydration issues with pre-rendered content",
-      "Handled form spam with honeypot + reCAPTCHA"
-    ]
-  },
-  {
-    "id": "aivoicechat-2025",
-    "title": "AI Voice Chat Assistant",
-    "category": "AI Utility App",
-    "date": "June 2025",
-    "description": "Interactive chat assistant with voice input and screen context awareness",
-    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "technologies": ["React", "OpenAI API", "Whisper", "TypeScript", "Web Speech API"],
-    "company": "Lasbrey",
-    "location": "Remote",
-    "role": "AI UX Engineer",
-    "highlights": [
-      "Developed assistant that explains current screen and responds to voice",
-      "Used OpenAI for intelligent response generation and memory",
-      "Implemented whisper-like transcription for voice input",
-      "Integrated smooth UI trigger button with floating interaction bubble"
-    ],
-    "challenges": [
-      "Balancing fast response time with accurate voice recognition",
-      "Handling multi-turn context and fallback UI",
-      "Building for both desktop and mobile responsiveness"
-    ]
-  }
-]
-
+  "projects": [
+    {
+      "id": "celebut-2025",
+      "title": "Celebut Platform",
+      "category": "Social Platform",
+      "date": "January 2025 - Present",
+      "description": "Modern social-first platform with secure identity verification",
+      "image": "/images/Celebut.png",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Sumsub API",
+        "REST APIs"
+      ],
+      "company": "Celebut",
+      "location": "London, United Kingdom",
+      "role": "Frontend Engineer",
+      "highlights": [
+        "Designed and developed front-end using Next.js for modern, fast interface",
+        "Integrated Sumsub for secure identity verification",
+        "Built custom REST APIs and handled complex third-party integrations",
+        "Optimized Next.js rendering strategies improving performance scores",
+        "Led redesign of user onboarding increasing completion rates by 40%",
+        "Implemented responsive design system with Tailwind CSS"
+      ],
+      "challenges": [
+        "Addressed slow page loads through ISR/SSR optimization",
+        "Solved UI inconsistencies across devices",
+        "Fixed state management issues in real-time interactions",
+        "Introduced API error handling and fallback UI strategies"
+      ]
+    },
+    {
+      "id": "lifesync-2025",
+      "title": "Lifesync",
+      "category": "Smart Health Monitoring",
+      "date": "April 2024 - February 2025",
+      "description": "Smart health company mobile app that connects to smartwatches and monitors user vitals in real-time",
+      "image": "/images/Lifesync.png",
+      "technologies": [
+        "React Native",
+        "TypeScript",
+        "Bluetooth LE",
+        "Health APIs",
+        "Real-time Analytics"
+      ],
+      "company": "HealthTech Startup",
+      "location": "Remote",
+      "role": "Mobile Developer",
+      "highlights": [
+        "Built mobile app that connects to smartwatches via Bluetooth LE",
+        "Implemented real-time vital monitoring and data collection",
+        "Developed health dashboard with comprehensive vital reporting",
+        "Created secure data transmission and storage for health information",
+        "Integrated with multiple smartwatch platforms and health APIs"
+      ],
+      "challenges": [
+        "Managing battery optimization for continuous monitoring",
+        "Ensuring accurate vital data collection and processing",
+        "Implementing HIPAA-compliant data security and privacy",
+        "Handling different smartwatch compatibility and connectivity issues"
+      ]
+    },
+    {
+      "id": "marvick-2025",
+      "title": "Marvick",
+      "category": "Data Payment App",
+      "date": "July 2025",
+      "description": "Mobile app for airtime and data top-up in Nigeria",
+      "image": "/images/Marvick.PNG",
+      "technologies": ["React Native", "TypeScript", "Firebase", "Node.js"],
+      "company": "Freelance Project",
+      "location": "Remote / Nigeria",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Developed mobile app with all major Nigerian telcos supported",
+        "Implemented secure wallet system and purchase flow",
+        "Built settings, history tracking, and biometric login",
+        "Used Firebase for auth and real-time updates"
+      ],
+      "challenges": [
+        "Managing telco API inconsistencies",
+        "Handling real-time balance sync and purchase confirmation",
+        "Optimizing for poor network conditions"
+      ]
+    },
+    {
+      "id": "credova-2025",
+      "title": "Credova",
+      "category": "Credit Scoring API",
+      "date": "March 2025 - Present",
+      "description": "Credit scoring API built for banks, microfinance institutions, and digital lenders",
+      "image": "/images/Credova.png",
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "REST APIs",
+        "Machine Learning"
+      ],
+      "company": "Fintech Startup",
+      "location": "Remote",
+      "role": "Backend Developer",
+      "highlights": [
+        "Built credit scoring algorithms leveraging mobile money and telco data",
+        "Developed API for assessing creditworthiness of non-traditional borrowers",
+        "Integrated with multiple data sources for comprehensive scoring",
+        "Implemented secure data handling and privacy compliance"
+      ],
+      "challenges": [
+        "Handling large-scale data processing for credit scoring",
+        "Ensuring data privacy and regulatory compliance",
+        "Optimizing API performance for real-time credit decisions"
+      ]
+    },
+    {
+      "id": "bunbolt-2025",
+      "title": "Bunbolt",
+      "category": "AI-Powered Playground",
+      "date": "June 2025 - Present",
+      "description": "AI-powered playground for creating projects with Bun.js",
+      "image": "/images/Bunbolt.png",
+      "technologies": [
+        "Bun",
+        "React",
+        "Tailwind CSS",
+        "AI Integration",
+        "Node.js"
+      ],
+      "company": "Personal Project",
+      "location": "Remote",
+      "role": "Developer Advocate & Builder",
+      "highlights": [
+        "Created AI-powered project generation using Bun.js",
+        "Built interactive playground for rapid prototyping",
+        "Integrated AI assistance for code generation and project setup",
+        "Developed visual project explorer with real-time preview"
+      ],
+      "challenges": [
+        "Integrating AI with Bun.js runtime environment",
+        "Handling dynamic project generation and file management",
+        "Optimizing AI response times for better user experience"
+      ]
+    },
+    {
+      "id": "voicepayment-2025",
+      "title": "Voice Payment",
+      "category": "Voice Payment App",
+      "date": "April 2023",
+      "description": "Voice-activated payment application for seamless transactions",
+      "image": "/images/Voicepayment.png",
+      "technologies": [
+        "React Native",
+        "Voice Recognition",
+        "Payment APIs",
+        "TypeScript"
+      ],
+      "company": "Freelance Project",
+      "location": "Remote",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Implemented voice recognition for hands-free payments",
+        "Integrated with multiple payment gateways",
+        "Built secure authentication and transaction verification",
+        "Created intuitive voice command interface"
+      ],
+      "challenges": [
+        "Ensuring accurate voice recognition in noisy environments",
+        "Implementing secure voice-based authentication",
+        "Optimizing for different accents and speech patterns"
+      ]
+    },
+    {
+      "id": "talk-2025",
+      "title": "Talk",
+      "category": "Video Communication Platform",
+      "date": "May 2025",
+      "description": "Visual clone of Zoom with enhanced functionalities",
+      "image": "/images/Talk.png",
+      "technologies": [
+        "React",
+        "WebRTC",
+        "Socket.io",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "company": "Personal Project",
+      "location": "Remote",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Built real-time video communication platform",
+        "Implemented screen sharing and recording features",
+        "Created virtual backgrounds and filters",
+        "Developed chat and file sharing capabilities"
+      ],
+      "challenges": [
+        "Optimizing video quality and bandwidth usage",
+        "Handling multiple concurrent video streams",
+        "Implementing cross-platform compatibility"
+      ]
+    },
+    {
+      "id": "advisorpass-2025",
+      "title": "Advisor Pass",
+      "category": "Company Directory Platform",
+      "date": "December 2024",
+      "description": "Website for company directories and business listings",
+      "image": "/images/Advisorpass.png",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Tailwind CSS",
+        "REST APIs"
+      ],
+      "company": "Freelance Project",
+      "location": "Remote",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Built comprehensive company directory with search and filtering",
+        "Implemented business profile management system",
+        "Created review and rating functionality",
+        "Developed responsive design for all devices"
+      ],
+      "challenges": [
+        "Managing large database of company information",
+        "Implementing efficient search and filtering algorithms",
+        "Ensuring data accuracy and verification processes"
+      ]
+    },
+    {
+      "id": "ai-social-manager-2025",
+      "title": "AI Social Media Manager",
+      "category": "AI Automation",
+      "date": "March 2025",
+      "description": "AI-powered platform that helps creators and brands schedule, generate, and analyze content across multiple social media platforms.",
+      "image": "/images/AISocialManager.png",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "OpenAI API",
+        "Supabase"
+      ],
+      "company": "Personal Project",
+      "location": "Remote",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Integrated GPT-based content generation for social posts",
+        "Built scheduling system and calendar-based UI",
+        "Implemented analytics dashboard with engagement metrics",
+        "Added multi-platform posting support (Instagram, Twitter, LinkedIn)"
+      ],
+      "challenges": [
+        "Managing rate limits and API tokens across multiple platforms",
+        "Handling time zone differences in scheduling",
+        "Optimizing prompt engineering for brand-specific tone"
+      ]
+    },
+    {
+      "id": "ticket-manager-2025",
+      "title": "Ticket Management System",
+      "category": "Customer Support Tool",
+      "date": "March 2023",
+      "description": "Web application to manage, prioritize, and resolve customer tickets across various support teams.",
+      "image": "/images/TicketSystem.png",
+      "technologies": ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+      "company": "Freelance Project",
+      "location": "Remote",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Built full ticketing lifecycle from submission to resolution",
+        "Implemented role-based access control for agents and admins",
+        "Developed email integration for ticket updates",
+        "Added analytics for ticket categories and response times"
+      ],
+      "challenges": [
+        "Ensuring real-time updates across agents",
+        "Maintaining performance with large ticket volumes"
+      ]
+    },
+    {
+      "id": "ptsd-care-2025",
+      "title": "PTSD Care Platform",
+      "category": "Health Platform",
+      "date": "October 2022",
+      "description": "Platform designed to help individuals with PTSD find care providers and self-help resources.",
+      "image": "/images/PTSDPlatform.png",
+      "technologies": ["HTML", "CSS", "JavaScript", "Firebase"],
+      "company": "University Project",
+      "location": "Nigeria",
+      "role": "Frontend Developer",
+      "highlights": [
+        "Created user-friendly interface focused on accessibility",
+        "Implemented filtering and location-based search for care providers",
+        "Integrated resource library for PTSD education"
+      ],
+      "challenges": [
+        "Ensuring emotional safety in UX design",
+        "Managing sensitive user information securely"
+      ]
+    },
+    {
+      "id": "record-mgmt-2024",
+      "title": "Record Management System",
+      "category": "Information System",
+      "date": "September 2022",
+      "description": "Final year university project to manage student and administrative records efficiently.",
+      "image": "/images/RecordManagement.png",
+      "technologies": ["PHP", "MySQL", "HTML", "CSS"],
+      "company": "University Project",
+      "location": "Nigeria",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Designed database structure for efficient record storage",
+        "Created admin panel for CRUD operations",
+        "Implemented student login and access control"
+      ],
+      "challenges": [
+        "Handling file uploads and document integrity",
+        "Validating inputs and preventing data duplication"
+      ]
+    },
+    {
+      "id": "hotel-mgmt-2024",
+      "title": "Hotel Management System",
+      "category": "Booking & Hospitality",
+      "date": "September 2024",
+      "description": "Hotel booking and room management system for small hotels and guest houses.",
+      "image": "/images/HotelSystem.png",
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "company": "Jomex Hotels",
+      "location": "Nigeria",
+      "role": "Fullstack Developer",
+      "highlights": [
+        "Implemented room availability, reservation, and check-out features",
+        "Created admin dashboard for staff to manage operations",
+        "Built email confirmation system for bookings"
+      ],
+      "challenges": [
+        "Handling overlapping reservations",
+        "Creating an intuitive UX for both guests and staff"
+      ]
+    },
+    {
+      "id": "ebiore-app-2025",
+      "title": "Ebiore Social App",
+      "category": "Social Platform",
+      "date": "June 2025",
+      "description": "Social media platform with features like posts, reactions, and chat tailored for Nigerian youth.",
+      "image": "/images/Ebiore.png",
+      "technologies": [
+        "React Native",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "company": "Startup Project",
+      "location": "Nigeria",
+      "role": "Mobile Developer",
+      "highlights": [
+        "Built post feed and story components",
+        "Implemented real-time chat using Socket.io",
+        "Worked on offline data caching and biometric login"
+      ],
+      "challenges": [
+        "Handling network variability and local device storage",
+        "Maintaining performance with real-time interactions"
+      ]
+    },
+    {
+      "id": "firstsamone-2023",
+      "title": "FirstSamone Internal Projects",
+      "category": "Enterprise Tasks",
+      "date": "January 2023 - August 2023",
+      "description": "A range of internal tools and mobile UIs built as part of frontend and mobile development responsibilities at FirstSamone.",
+      "image": "/images/FirstSamone.png",
+      "technologies": ["React", "React Native", "Tailwind CSS", "Figma"],
+      "company": "FirstSamone",
+      "location": "Nigeria",
+      "role": "Frontend & Mobile Developer",
+      "highlights": [
+        "Translated Figma designs into responsive interfaces",
+        "Created UI components and screens across web and mobile",
+        "Assisted in performance testing and bug fixes"
+      ],
+      "challenges": [
+        "Maintaining UI consistency across platforms",
+        "Implementing shared component design system"
+      ]
+    }
+  ]
 }
